@@ -19,7 +19,15 @@ In JS, to let it register its AngularJS module:
 
 In HTML:
 
-    <script src="components/hugojosefson-image-url-for-angular/index.js"></script>
+    <script src="bower_components/hugojosefson-image-url-for-angular/index.js"></script>
+
+### With [npm](https://www.npmjs.com/)
+
+    $ npm install hugojosefson/image-url-for-angular
+
+In HTML:
+
+    <script src="node_modules/image-url-for-angular/index.js"></script>
 
 ### Old-school
 
@@ -64,7 +72,7 @@ the attribute `image-url-integrate-with-form-validity="false"` on the `<input />
 
 For most cases you can check for a valid image by checking the width and/or height models instead, if you expect images
 to be > 0 pixels.
-       
+
 
 ## License
 
