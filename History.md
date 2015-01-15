@@ -15,3 +15,6 @@
 
 ### 0.0.6
    * Check image even if `$watch` doesn't call with `null` the first time.
+
+### 0.0.7
+   * Expose as npm package too.
